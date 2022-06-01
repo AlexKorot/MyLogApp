@@ -10,8 +10,6 @@ import com.example.mylogapp.databinding.FragmentStartBinding
 
 class FragmentStart: Fragment(R.layout.fragment_start), Animation.AnimationListener {
     private lateinit var binding: FragmentStartBinding
-    // private lateinit var inAnimation : Animation
-    // private lateinit var outAnimation: Animation
     private lateinit var scaleAnimation: Animation
 
 
@@ -20,14 +18,8 @@ class FragmentStart: Fragment(R.layout.fragment_start), Animation.AnimationListe
         binding= FragmentStartBinding.bind(view)
         val activity=requireActivity() as MainActivity
         scaleAnimation= AnimationUtils.loadAnimation(activity,R.anim.scale_anim)
-        binding.cardView.startAnimation(scaleAnimation)
         scaleAnimation.setAnimationListener(this)
-        //outAnimation=AnimationUtils.loadAnimation(activity,R.anim.alpha_out)
-        //  inAnimation=AnimationUtils.loadAnimation(activity,R.anim.alpha_in)
-        // inAnimation.setAnimationListener(this)
-        // binding.textView.startAnimation(outAnimation)
-        //  binding.textView.startAnimation(inAnimation)
-
+        binding.cardView.startAnimation(scaleAnimation)
     }
 
     override fun onAnimationStart(animation: Animation?) {

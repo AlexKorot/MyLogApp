@@ -37,7 +37,7 @@
             app:destination="@id/fragmentStart"
             app:enterAnim="@android:anim/slide_in_left" />
         <argument
-            android:name="login"
+            android:name="email"
             app:argType="string" />
         <argument
             android:name="password"

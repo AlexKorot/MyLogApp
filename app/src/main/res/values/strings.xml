@@ -11,9 +11,9 @@
     <string name="Account">Account</string>
     <string name="invalid_email">Invalid Email!</string>
     <string name="required_field">Required Field!</string>
-    <string name="password_more_6">password can\'t be less than 6</string>
-    <string name="required_digit">Required at least 1 digit</string>
+    <string name="password_more_6">Password must be at least 6 characters</string>
+    <string name="required_digit">Password must contain at least 1 digit</string>
     <string name="lower_letters">Password must contain upper and lower case letters</string>
-    <string name="special_charter">1 special character required</string>
+    <string name="special_charter">Password must contain at least 1 special character</string>
     <string name="email">email</string>
 </resources>

@@ -3,8 +3,11 @@ package com.example.mylogapp
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.util.Log
 import android.view.View
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
+import androidx.lifecycle.LifecycleOwner
 import androidx.navigation.fragment.findNavController
 import com.example.mylogapp.FieldValidators.isStringContainNumber
 import com.example.mylogapp.FieldValidators.isStringContainSpecialCharacter
@@ -24,22 +27,22 @@ class FragmentLogin: Fragment(R.layout.fragment_login) {
         binding.loginButton.setOnClickListener {
             if(isValidate()) {
 
-                   val login = binding.email.text.toString()
-                   val password = binding.password.text.toString()
-                   val direction =
-                       FragmentLoginDirections.actionFragmentLoginToFragmentAccount(login, password)
-                   findNavController().navigate(direction)
+                val login = binding.email.text.toString()
+                val password = binding.password.text.toString()
+                val direction =
+                    FragmentLoginDirections.actionFragmentLoginToFragmentAccount(login, password)
+                findNavController().navigate(direction)
 
-               }
+            }
         }
     }
     private fun isValidate(): Boolean = validateEmail() && validatePassword()
 
     private fun setupListeners() {
-         binding.apply {
-             email.addTextChangedListener(TextFieldValidation(binding.email))
-             password.addTextChangedListener(TextFieldValidation(binding.password))
-         }
+        binding.apply {
+            email.addTextChangedListener(TextFieldValidation(binding.email))
+            password.addTextChangedListener(TextFieldValidation(binding.password))
+        }
     }
 
 
@@ -87,14 +90,12 @@ class FragmentLogin: Fragment(R.layout.fragment_login) {
     }
 
 
-    /**
-     * applying text watcher on each text field
-     */
+
     inner class TextFieldValidation(private val view: View) : TextWatcher {
         override fun afterTextChanged(s: Editable?) {}
         override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
         override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-            // checking ids of each text field and applying functions accordingly.
+
             when (view.id) {
 
                 R.id.email -> {
@@ -107,12 +108,4 @@ class FragmentLogin: Fragment(R.layout.fragment_login) {
             }
         }
     }
-
-  //  fun isFieldEmpty(): Boolean{
-    //    binding.apply {
-      //      if(password.text.isNullOrEmpty()) password.error = getString(R.string.field_must)
-        //    if(email.text.isNullOrEmpty()) email.error = getString(R.string.field_must)
-        //    return  email.text.isNullOrEmpty() || password.text.isNullOrEmpty()
-      //  }
-   // }
 }
