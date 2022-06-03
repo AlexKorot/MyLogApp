@@ -34,5 +34,9 @@ class FragmentStart: Fragment(R.layout.fragment_start), Animation.AnimationListe
 
     }
 
+    override fun onPause() {
+        binding.cardView.clearAnimation()
+        super.onPause()
+    }
 
 }
