@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyLogApp</string>
+    <string name="hello_user">Привіт Юзер</string>
+    <string name="title">Заголовок</string>
+    <string name="go_to_start">Старт</string>
+    <string name="exit">Вихід</string>
+    <string name="name">Ім\'я</string>
+    <string name="password">Пароль</string>
+    <string name="login">Логин</string>
+    <string name="field_must">Поле повинно бути заповненим</string>
+    <string name="Account">Аккаунт</string>
+    <string name="invalid_email">Невірний формат емаіл</string>
+    <string name="required_field">Поле має бути заповненим</string>
+    <string name="password_more_6">Пароль  не меньше 6 символів</string>
+    <string name="required_digit">Повинен містити 1 цифру</string>
+    <string name="lower_letters">Повинен мати заглавні літери</string>
+    <string name="special_charter">Повинен мати 1 спеціальний символ</string>
+    <string name="email">е-маіл</string>
+</resources>
