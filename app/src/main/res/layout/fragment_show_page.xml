@@ -24,7 +24,7 @@ tools:context="com.example.myquiz.ui.Fragment_Show_Pages">
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
-            android:backgroundTint="@color/material_dynamic_neutral50">
+           >
 
             <TextView
                 android:id="@+id/tv_title"
@@ -43,7 +43,7 @@ tools:context="com.example.myquiz.ui.Fragment_Show_Pages">
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
-            android:backgroundTint="@color/material_dynamic_neutral50">
+           >
 
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
@@ -57,7 +57,7 @@ tools:context="com.example.myquiz.ui.Fragment_Show_Pages">
             android:layout_marginStart="10dp"
             android:layout_marginTop="50dp"
             android:layout_marginEnd="10dp"
-            android:backgroundTint="@color/material_dynamic_neutral50"
+
             android:text="next" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

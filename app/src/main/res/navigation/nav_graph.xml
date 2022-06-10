@@ -9,5 +9,23 @@
         android:id="@+id/fragment_Start"
         android:name="com.example.myquiz.ui.Fragment_Start"
         android:label="fragmet_start"
-        tools:layout="@layout/fragment_start" />
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_fragment_Start_to_fragment_Show_Pages"
+            app:destination="@id/fragment_Show_Pages" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_Show_Pages"
+        android:name="com.example.myquiz.ui.Fragment_Show_Pages"
+        android:label="fragment_show_page"
+        tools:layout="@layout/fragment_show_page" >
+        <action
+            android:id="@+id/action_fragment_Show_Pages_to_fragment_Result"
+            app:destination="@id/fragment_Result" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_Result"
+        android:name="com.example.myquiz.ui.Fragment_Result"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
 </navigation>

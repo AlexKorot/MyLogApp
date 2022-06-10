@@ -1,4 +1,8 @@
 package com.example.myquiz.ui
 
-class Fragment_Result {
+import androidx.fragment.app.Fragment
+import com.example.myquiz.R
+
+class Fragment_Result:Fragment(R.layout.fragment_result) {
+
 }

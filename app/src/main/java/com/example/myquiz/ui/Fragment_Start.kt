@@ -19,27 +19,32 @@ class Fragment_Start: Fragment(R.layout.fragment_start),Animation.AnimationListe
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding= FragmentStartBinding.bind(view)
-        val activity=requireActivity() as MainActivity
-        scaleAnimation= AnimationUtils.loadAnimation(activity,R.anim.scale_anim)
-       // scaleAnimation.setAnimationListener(this)
-        binding.cardView.startAnimation(scaleAnimation)
+
+
+         val activity=requireActivity() as MainActivity
+          scaleAnimation=AnimationUtils.loadAnimation(activity,R.anim.scale_anim)
         scaleAnimation.setAnimationListener(this)
-    }
+         binding.cardView.startAnimation(scaleAnimation)
 
-    override fun onAnimationStart(animation: Animation?) {
 
-    }
-
-    override fun onAnimationEnd(animation: Animation?) {
-        findNavController().navigate(R.id.action_fragmentStart_to_fragmentLogin)
-    }
-
-    override fun onAnimationRepeat(animation: Animation?) {
 
     }
 
-    override fun onPause() {
-        binding.cardView.clearAnimation()
-        super.onPause()
-    }
+
+
+ override fun onAnimationStart(animation: Animation?) {
+
 }
+
+ override fun onAnimationEnd(animation: Animation?) {
+   findNavController().navigate(R.id.action_fragment_Start_to_fragment_Show_Pages)
+ }
+
+ override fun onAnimationRepeat(animation: Animation?) {
+
+ }
+
+
+}
+
+
