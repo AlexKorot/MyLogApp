@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_Start">
+
+    <fragment
+        android:id="@+id/fragment_Start"
+        android:name="com.example.myquiz.ui.Fragment_Start"
+        android:label="fragmet_start"
+        tools:layout="@layout/fragment_start" />
+</navigation>
