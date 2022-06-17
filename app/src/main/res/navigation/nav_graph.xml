@@ -1,46 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/fragmentStart">
+    app:startDestination="@id/fragment_Start">
 
     <fragment
-        android:id="@+id/fragmentStart"
-        android:name="com.example.mylogapp.FragmentStart"
-        android:label="@string/go_to_start"
+        android:id="@+id/fragment_Start"
+        android:name="com.example.myquiz.ui.Fragment_Start"
+        android:label="fragmet_start"
         tools:layout="@layout/fragment_start" >
         <action
-            android:id="@+id/action_fragmentStart_to_fragmentLogin"
-            app:destination="@id/fragmentLogin"
-            app:enterAnim="@android:anim/fade_in" />
+            android:id="@+id/action_fragment_Start_to_fragment_Show_Pages"
+            app:destination="@id/fragment_Show_Pages" />
     </fragment>
     <fragment
-        android:id="@+id/fragmentLogin"
-        android:name="com.example.mylogapp.FragmentLogin"
-        android:label="@string/login"
-        tools:layout="@layout/fragment_login" >
-
+        android:id="@+id/fragment_Show_Pages"
+        android:name="com.example.myquiz.ui.Fragment_Show_Pages"
+        android:label="fragment_show_page"
+        tools:layout="@layout/fragment_show_page" >
         <action
-            android:id="@+id/action_fragmentLogin_to_fragmentAccount"
-            app:destination="@id/fragmentAccount"
-            app:enterAnim="@android:anim/fade_in" />
-
+            android:id="@+id/action_fragment_Show_Pages_to_fragment_Result"
+            app:destination="@id/fragment_Result" />
     </fragment>
     <fragment
-        android:id="@+id/fragmentAccount"
-        android:name="com.example.mylogapp.FragmentAccount"
-        android:label="@string/Account"
-        tools:layout="@layout/fragment_account" >
-        <action
-            android:id="@+id/action_fragmentAccount_to_fragmentStart"
-            app:destination="@id/fragmentStart"
-            app:enterAnim="@android:anim/slide_in_left" />
-        <argument
-            android:name="email"
-            app:argType="string" />
-        <argument
-            android:name="password"
-            app:argType="string" />
-    </fragment>
+        android:id="@+id/fragment_Result"
+        android:name="com.example.myquiz.ui.Fragment_Result"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
 </navigation>

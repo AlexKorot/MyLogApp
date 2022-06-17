@@ -1,4 +1,4 @@
-package com.example.mylogapp
+package com.example.myquiz
 
 import org.junit.Test
 
