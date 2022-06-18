@@ -15,7 +15,7 @@ class MainScreen : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
     override val viewModel: MainViewModel by viewModel()
 
-    override val navController: NavController by lazy {
+   override val navController: NavController by lazy {
         val navHostFragment =
             supportFragmentManager.findFragmentById(R.id.homeHostNavFragment) as NavHostFragment
         navHostFragment.navController
@@ -33,6 +33,7 @@ class MainScreen : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
 
 
-
-
 }
+
+
+
