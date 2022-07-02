@@ -7,16 +7,14 @@
     <fragment
         android:id="@+id/splashFragment"
         android:name="com.onix.internship.ui.splash.SplashFragment"
-        android:label="SplashFragment" />
-
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_translateFragment"
+            app:destination="@id/translateFragment" />
+    </fragment>
     <fragment
-        android:id="@+id/authFragment"
-        android:name="com.onix.internship.ui.auth.AuthFragment"
-        android:label="AuthFragment" />
-
-    <fragment
-        android:id="@+id/canvasFragment"
-        android:name="com.onix.internship.ui.canvas.CanvasFragment"
-        android:label="CanvasFragment" />
+        android:id="@+id/translateFragment"
+        android:name="com.onix.internship.ui.translate.TranslateFragment"
+        android:label="TranslateFragment" />
 
 </navigation>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyWiFiMonitorApp</string>
+    <string name="app_name">Internship Onix</string>
 
     <string name="auth_user_name_hint">Enter your name</string>
     <string name="auth_email_hint">Enter email</string>
@@ -15,4 +15,7 @@
 
     <string name="menu_log_out">Log out</string>
     <string name="canvas">Canvas</string>
+    <string name="Ukr">Ukrainian</string>
+    <string name="Pol">Polish</string>
+
 </resources>
