@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.onix.internship">
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+
         android:name=".InternshipApp"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
@@ -12,7 +15,7 @@
         android:theme="@style/Theme.internship">
         <activity
             android:name=".ui.main.MainScreen"
-            android:screenOrientation="sensor"
+            android:screenOrientation="landscape"
             android:configChanges="orientation"
             android:windowSoftInputMode="stateHidden"
             android:exported="true">

@@ -2,6 +2,8 @@ package com.onix.internship.ui.main
 
 import android.content.Intent
 import android.content.res.Configuration
+import android.media.MediaPlayer
+import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.navigation.NavController
@@ -9,6 +11,7 @@ import androidx.navigation.fragment.NavHostFragment
 import com.onix.internship.R
 import com.onix.internship.arch.BaseActivity
 import com.onix.internship.databinding.ActivityMainBinding
+import com.onix.internship.novel.MyMediaPlayer
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainScreen : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
@@ -21,6 +24,10 @@ class MainScreen : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         navHostFragment.navController
     }
 
+
+
+
+
     override fun onConfigurationChanged(newConfig: Configuration) {
         super.onConfigurationChanged(newConfig)
     }
@@ -30,9 +37,8 @@ class MainScreen : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
     }
 
     override fun setObservers() {}
+    override fun onDestroy() {
+        super.onDestroy()
 
-
-
-
-
+    }
 }

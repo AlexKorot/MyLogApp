@@ -1,5 +1,8 @@
 package com.onix.internship.ui.splash
 
+import android.media.MediaPlayer
+import android.os.Bundle
+import android.view.View
 import com.onix.internship.R
 import com.onix.internship.arch.BaseFragment
 import com.onix.internship.arch.ext.navigate
@@ -13,11 +16,13 @@ class SplashFragment : BaseFragment<SplashFragmentBinding>(R.layout.splash_fragm
     override fun setObservers() {
         viewModel.initEvent.observe(this) {
             if (it) showLogInScreen()
+
         }
     }
 
+
     private fun showLogInScreen() {
-        navigate(R.id.canvasFragment, clearStack = true)
+        navigate(R.id.fragmentMenu, clearStack = true)
     }
 
 }
