@@ -7,16 +7,42 @@
     <fragment
         android:id="@+id/splashFragment"
         android:name="com.onix.internship.ui.splash.SplashFragment"
-        android:label="SplashFragment" />
-
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_fragmentMenu"
+            app:destination="@id/fragmentMenu" />
+    </fragment>
     <fragment
-        android:id="@+id/authFragment"
-        android:name="com.onix.internship.ui.auth.AuthFragment"
-        android:label="AuthFragment" />
-
+        android:id="@+id/fragmentClub"
+        android:name="com.onix.internship.novel.FragmentClub"
+        android:label="FragmentClub" />
     <fragment
-        android:id="@+id/canvasFragment"
-        android:name="com.onix.internship.ui.canvas.CanvasFragment"
-        android:label="CanvasFragment" />
+        android:id="@+id/fragmentLectureHall"
+        android:name="com.onix.internship.novel.FragmentLectureHall"
+        android:label="FragmentLectureHall" >
+        <action
+            android:id="@+id/action_fragmentLectureHall_to_fragmentUni"
+            app:destination="@id/fragmentUni" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentMeadow"
+        android:name="com.onix.internship.novel.FragmentMeadow"
+        android:label="FragmentMeadow" />
+    <fragment
+        android:id="@+id/fragmentUni"
+        android:name="com.onix.internship.novel.FragmentUni"
+        android:label="FragmentUni" >
+        <action
+            android:id="@+id/action_fragmentUni_to_fragmentMeadow"
+            app:destination="@id/fragmentMeadow" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentMenu"
+        android:name="com.onix.internship.novel.FragmentMenu"
+        android:label="FragmentMenu" >
+        <action
+            android:id="@+id/action_fragmentMenu_to_fragmentLectureHall"
+            app:destination="@id/fragmentLectureHall" />
+    </fragment>
 
 </navigation>

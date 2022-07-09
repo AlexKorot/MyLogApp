@@ -1,18 +1,26 @@
 <resources>
     <string name="app_name">Internship Onix</string>
-
     <string name="auth_user_name_hint">Enter your name</string>
     <string name="auth_email_hint">Enter email</string>
     <string name="auth_pass_hint">Enter password</string>
     <string name="auth_login">LogIn</string>
-
     <string name="title_messages">Messages</string>
-
     <string name="err_empty_name">Name is empty</string>
     <string name="err_empty_email">Email is empty or incorrect</string>
     <string name="err_empty_pass">Password is empty</string>
     <string name="err_empty_token">Token is empty</string>
-
     <string name="menu_log_out">Log out</string>
     <string name="canvas">Canvas</string>
+    <string name="dl_onr">Только когда я услышал шорох ног и сумок, я понял, что лекция кончилась.</string>
+    <string name="dl_two">Лекции профессора Эйлин обычно интересные, но сегодня я просто не смог сконцентрироваться.</string>
+    <string name="dl_three">У меня было много разных мыслей в голове… и все эти мысли кульминировались вопросом.</string>
+    <string name="dl_four">Вопросом, который я давно хотел задать определённому человеку.</string>
+    <string name="dialog_Uni_first">Когда мы вышли из университета, я тут же заметил её.</string>
+    <string name="dialog_Uni_four">  Большего, чем просто разговоры. Больше, чем просто ходить домой вместе с концом наших занятий.</string>
+
+    <string name="next">"Далее"</string>
+    <string name="ask_latter">спросить ее потом</string>
+    <string name="ask_now">спросить ее сейчас</string>
+    <string name="start">СТАРТ</string>
+    <string name="exit">ВЫХОД</string>
 </resources>
