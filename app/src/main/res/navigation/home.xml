@@ -2,21 +2,25 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/home"
-    app:startDestination="@id/splashFragment">
-
+    app:startDestination="@id/mainTaskFragment"
+    xmlns:tools="http://schemas.android.com/tools">
     <fragment
-        android:id="@+id/splashFragment"
-        android:name="com.onix.internship.ui.splash.SplashFragment"
-        android:label="SplashFragment" />
-
+        android:id="@+id/mainTaskFragment"
+        android:name="com.onix.internship.task.MainTaskFragment"
+        android:label="MainTaskFragment" >
+        <action
+            android:id="@+id/action_mainTaskFragment2_to_developFragment2"
+            app:destination="@id/developFragment" />
+        <action
+            android:id="@+id/action_mainTaskFragment_to_mDialogFragment"
+            app:destination="@id/mDialogFragment" />
+    </fragment>
     <fragment
-        android:id="@+id/authFragment"
-        android:name="com.onix.internship.ui.auth.AuthFragment"
-        android:label="AuthFragment" />
-
-    <fragment
-        android:id="@+id/canvasFragment"
-        android:name="com.onix.internship.ui.canvas.CanvasFragment"
-        android:label="CanvasFragment" />
-
+        android:id="@+id/developFragment"
+        android:name="com.onix.internship.task.DevelopFragment"
+        android:label="DevelopFragment" />
+    <dialog
+        android:id="@+id/mDialogFragment"
+        android:name="com.onix.internship.task.mDialogFragment"
+        android:label="mDialogFragment" />
 </navigation>

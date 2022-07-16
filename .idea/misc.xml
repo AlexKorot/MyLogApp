@@ -3,7 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/layout/splash_fragment.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable-v24/layout_round_corner_filled.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable/activity.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable/calendar_img.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable/divider.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable/folder.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable/home.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable/ic_avatar_dummy.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable/ic_calendar.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable/ic_clear.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable/ic_document.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable/ic_light_calendar.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable/item_separator.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable/online_indicator.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable/online_indicator_bg.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/layout/development_fragment.xml" value="0.121875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/layout/dialog_fragment.xml" value="0.2640625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/layout/item_calendar_horizontal.xml" value="0.2640625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/layout/item_calendar_vertical.xml" value="0.121875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/layout/main_task_fragment.xml" value="0.26510416666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.26510416666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/OnixAndroidInternship2022/app/src/main/res/layout/splash_fragment.xml" value="0.11614583333333334" />
       </map>
     </option>
