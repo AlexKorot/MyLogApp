@@ -16,8 +16,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:gifImage="@{R.raw.anim}"
-            >
+            app:gifImage="@{R.raw.anim_skull}">
 
         </ImageView>
 
