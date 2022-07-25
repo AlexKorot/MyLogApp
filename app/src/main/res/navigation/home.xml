@@ -5,39 +5,18 @@
     app:startDestination="@id/splashFragment">
 
     <fragment
-        android:id="@+id/setFragOne"
-        android:name="com.onix.internship.fragments.SetFragOne"
-        android:label="SetFragOne" >
-        <action
-            android:id="@+id/action_setFragOne_to_setFragTwo"
-            app:destination="@id/setFragTwo" />
-        <action
-            android:id="@+id/action_setFragOne_to_ageCheckFragment2"
-            app:destination="@id/ageCheckFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/setFragTwo"
-        android:name="com.onix.internship.fragments.SetFragTwo"
-        android:label="SetFragTwo" >
-        <action
-            android:id="@+id/action_setFragTwo_to_setFragOne"
-            app:destination="@id/setFragOne" />
-    </fragment>
-    <fragment
-        android:id="@+id/ageCheckFragment"
-        android:name="com.onix.internship.fragments.AgeCheckFragment"
-        android:label="AgeCheckFragment" >
-        <action
-            android:id="@+id/action_ageCheckFragment_to_setFragOne2"
-            app:destination="@id/setFragOne" />
-    </fragment>
-    <fragment
         android:id="@+id/splashFragment"
         android:name="com.onix.internship.ui.splash.SplashFragment"
-        android:label="SplashFragment" >
-        <action
-            android:id="@+id/action_splashFragment_to_ageCheckFragment"
-            app:destination="@id/ageCheckFragment" />
-    </fragment>
+        android:label="SplashFragment" />
+
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.onix.internship.ui.auth.AuthFragment"
+        android:label="AuthFragment" />
+
+    <fragment
+        android:id="@+id/canvasFragment"
+        android:name="com.onix.internship.ui.canvas.CanvasFragment"
+        android:label="CanvasFragment" />
 
 </navigation>
