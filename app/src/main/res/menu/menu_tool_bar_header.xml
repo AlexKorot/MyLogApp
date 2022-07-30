@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/color_notes"
+        android:icon="@drawable/ic_color_notes"
+        android:title="@string/color_notes"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/toolbar_start"
+        android:icon="@drawable/ic_menu"
+        android:title=""
+        app:showAsAction="ifRoom"
+        />
+
+
+</menu>
