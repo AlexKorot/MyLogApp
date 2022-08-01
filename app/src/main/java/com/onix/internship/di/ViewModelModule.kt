@@ -1,6 +1,5 @@
 package com.onix.internship.di
-
-
+import com.onix.internship.notes.NoteListViewModel
 import com.onix.internship.ui.main.MainViewModel
 import com.onix.internship.ui.splash.SplashViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
@@ -10,6 +9,7 @@ val viewModelModule = module {
 
     viewModel { SplashViewModel() }
     viewModel { MainViewModel() }
+    viewModel{NoteListViewModel()}
 
 
 }

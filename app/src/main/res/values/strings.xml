@@ -15,4 +15,13 @@
 
     <string name="menu_log_out">Log out</string>
     <string name="canvas">Canvas</string>
+    <string name="emergency">Emergency</string>
+    <string name="notes_list">Notes list</string>
+    <string name="color_notes">Color notes</string>
+    <string name="help">Help</string>
+    <string name="sort">sort</string>
+    <string name="menu">menu</string>
+    <string name="add">add</string>
+    <string name="title">title</string>
+    <string name="description">description</string>
 </resources>
