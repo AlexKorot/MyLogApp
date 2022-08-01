@@ -3,7 +3,6 @@
     package="com.onix.internship">
 
     <application
-
         android:name=".InternshipApp"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
