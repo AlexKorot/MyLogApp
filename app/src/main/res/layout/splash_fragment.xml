@@ -16,8 +16,10 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:gifImage="@{R.raw.wi_fi_anim}"
-            >
+            app:srcCompat="@drawable/smart_home" >
+
+           <!-- app:gifImage="@{R.raw.wi_fi_anim}"-->
+
 
         </ImageView>
 
