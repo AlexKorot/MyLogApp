@@ -3,11 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/drawable/background_gradient_black.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/layout/activity_main.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/layout/parse_frag.xml" value="0.44940747493163175" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/layout/sensor_list_item.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyLogApp/app/src/main/res/layout/splash_fragment.xml" value="0.11614583333333334" />
         <entry key="..\:/Users/User/AndroidStudioProjects/OnixAndroidInternship2022_1/app/src/main/res/layout/auth_fragment.xml" value="0.11614583333333334" />
         <entry key="..\:/Users/User/AndroidStudioProjects/OnixAndroidInternship2022_1/app/src/main/res/layout/splash_fragment.xml" value="0.25677083333333334" />
       </map>
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>

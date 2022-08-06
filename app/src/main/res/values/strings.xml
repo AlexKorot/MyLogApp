@@ -15,4 +15,10 @@
 
     <string name="menu_log_out">Log out</string>
     <string name="canvas">Canvas</string>
+    <string name="version">version: </string>
+    <string name="name">name: </string>
+    <string name="value">value</string>
+    <string name="subtype">subtype</string>
+    <string name="type">type</string>
+    <string name="room">room</string>
 </resources>
