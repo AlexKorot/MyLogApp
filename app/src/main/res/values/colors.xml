@@ -10,7 +10,5 @@
 
     <color name="colorPaint">#FF000000</color>
     <color name="colorBackground">#FFFFFFFF</color>
-    <color name="color_card_view_background">#FDA43C</color>
-
 
 </resources>

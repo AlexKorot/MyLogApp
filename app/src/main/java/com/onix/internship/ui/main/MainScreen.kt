@@ -34,5 +34,5 @@ class MainScreen : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
 
 
-    }
 
+}
